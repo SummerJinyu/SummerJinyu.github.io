@@ -10,7 +10,6 @@ comments: true
 
 In the problem of linear regression, to prevent overfitting, different kinds of penalty terms are added to the loss function, this is called regularization. Two mostly commonly useded regularized methods are Rigid ($$l_2$$ penalty) and Lasso ($$l_1$$ penalty). 
 
-
 **Tikhonov regularization (Ridge regression)**. Rigid regression is called $$l_2$$ regularization because a 2-norm of the coefficients are added after the sum of squared error term. Now the loss function becomes:
 
 $$minimize \{ \Vert\boldsymbol{y} - \boldsymbol{X}\boldsymbol{\beta}\Vert_2^2 + \lambda\Vert \boldsymbol{\beta}\Vert_2^2 \}$$
