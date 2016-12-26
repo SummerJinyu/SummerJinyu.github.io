@@ -58,6 +58,7 @@ $$\hat{\boldsymbol{\beta}} = (
 0
 \end{bmatrix} = (\boldsymbol{X}^T\boldsymbol{X} + \lambda \boldsymbol{I})^{-1}\boldsymbol{A}^T\boldsymbol{b}
 $$
+
 Alternatively, we can find the modified normal equations direcly by differentiating the cost function, and setting the derivative equal to zero. 
 
 **Lasso**. Another commonly used regularization is Lasso. The lasso criterion is:
